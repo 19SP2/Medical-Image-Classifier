@@ -29,15 +29,25 @@ The repository includes a ready-to-run inference script that takes an image and 
 ## Project Structure  
 
 vit-medical-image-classifier/
+
 │
+
 ├── vit_xray_final/                 # Saved fine-tuned model
+
 ├── datasets/
+
 │   └── chest_xray/
+
 │       ├── train/
+
 │       ├── test/
+
 │       └── val/
+
 ├── inference.py                    # Inference / prediction script
-├── train.py                        # (Optional) Training script
+
+├── image_classifier.py                        # Training script
+
 └── README.md                       # Project documentation
 
 ## Example Output
